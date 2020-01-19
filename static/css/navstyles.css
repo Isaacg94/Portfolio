@@ -1,0 +1,178 @@
+body {
+    /* background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(155,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23e1e4eb'/%3E%3Cstop offset='1' stop-color='%23ffffff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='12' height='12' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='6' cy='6' r='6'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.12'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+.header {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(155,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23e1e4eb'/%3E%3Cstop offset='1' stop-color='%23ffffff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='12' height='12' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='6' cy='6' r='6'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.12'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative
+}
+
+h1 {
+    color: brown;
+}
+.navitext {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.menuly {
+    width:45px;
+    float: left;
+    height:100%;
+    position:fixed;
+    color:#000;
+    font-family: 'Inconsolata', monospace;
+}
+.menuly ul {
+    list-style: none;
+    display: inline-block;
+    
+}
+ul.socialinks {
+    width:21px;
+    margin:0 auto;
+}
+ul.socialinks li:first-child {
+    /* padding-top:35px */
+}
+ul.socialinks li {
+    padding-top:100px;
+}
+ul.socialinks li a {
+    -webkit-transform:rotate(270deg);
+    -moz-transform:rotate(270deg);
+    -o-transform:rotate(270deg);
+    writing-mode:lr-tb;
+    float:left;
+    text-decoration: none;
+    width:21px;
+    color:#000;
+    transition: 0.4s;
+    
+}
+ul.socialinks li a:hover {
+    color: #e6ebeb;
+}
+
+ul.nav li {
+    padding-top:124px;
+}
+.navitext a {
+    -webkit-transition: 0.725s;
+}
+.navitext a:hover {
+    text-decoration: none;
+    color: #c4c5c5;
+}
+.header-text {
+    position: absolute;
+    left: 60%;
+    margin-left: -50px;
+    top: 60%;
+    margin-top: -50px;
+}
+
+.logo {
+    /* line-height: 60px; */
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.logo a {
+    color: #011025;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    /* line-height: 60px; */
+}
+
+nav ul {
+    /* line-height: 60px; */
+    list-style: none;
+    background: #ffffff00;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+    transition: 0.5s;
+}
+
+nav.black a {
+    color: #ffffff;
+}
+nav.black ul {
+    background: #24292E;
+}
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #011025;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: rgb(255, 255, 255);
+    }
+
+    nav.black ul {
+          background: rgb(0, 0, 0);
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
