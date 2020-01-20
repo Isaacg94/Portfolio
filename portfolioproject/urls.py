@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'',include('portfolioapp.urls'))
+    url(r'',include('portfolioapp.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 ]
