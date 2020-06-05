@@ -13,7 +13,7 @@ cupshelpers==1.0
 dataclasses==0.7
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
-Django==3.0
+Django==3.0.7
 djongo==1.2.38
 Flask==1.1.1
 Flask-Script==2.0.6
